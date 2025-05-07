@@ -68,7 +68,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-//Adding Stripe configuration
+//Adding Stripe configuration //sk_test_51OlWFUDfRJUn5qMUwhdPj3mt7IueKqmcDeXpVxH3fwHsFpLcjqwnHR88dOTMY2jDSK4BZcJxVeFCFMWYHpXfVzvL009UCxAO7t
 StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 
 
